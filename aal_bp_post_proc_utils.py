@@ -765,6 +765,7 @@ def smooth_over_all_coordinates_after_tracking(over_all_coordinates_with_trackin
     except:
         pass
     
+    os.chdir("..")
     np.save("skeleton_after_smoothing",skeleton)
             
     return over_all_smoothed_after_tracking

@@ -1289,7 +1289,7 @@ def track_coordinates1(path_saved,main_path,over_all,ref_width,missing_imgs,out_
         out_ann.release()
     except:
         pass
-    np.save("skeleton_after_tracking",skeleton)
+    # np.save("skeleton_after_tracking",skeleton)
 
     return over_all_smoothed
     
