@@ -1,4 +1,4 @@
-# blazepose_pipeline_without_results 
+# blazepose_pipeline__no_verbosity
 This pipeline operates at 3 Hz with full model compared to full model mediapipeline in java operating 6 Hz on the same laptop. In this version of pipeline no results are being saved and input parameter is only --frames to be processed. 
 
 
