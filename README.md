@@ -1,5 +1,6 @@
 # blazepose_pipeline_without_results 
-In this version of pipeline no results are being saved and input parameters are only --frames to be processed. 
+This pipeline operates at 3 Hz with full model compared to full model mediapipeline in java operating 6 Hz on the same laptop. In this version of pipeline no results are being saved and input parameter is only --frames to be processed. 
+
 
 **Installation: <br />**
 Download trained weights from [Dropbox](https://www.dropbox.com/s/by94ilm6lzjrztd/extract_here_blazepose_inference.zip?dl=0) and unzip it using "extract here" command in the same directory  <br/>
@@ -8,7 +9,7 @@ Download trained weights from [Dropbox](https://www.dropbox.com/s/by94ilm6lzjrzt
 Can be downloaded from here <br/>
 
 **Dependencies: <br />**
-Method 1: pip install tensorflow==2.0 pillow==8.0 jsonlib-python3 scipy==1.7.0 opencv-python==4.4.0.44  <br/>
+Method 1: pip install tensorflow==2.0 pillow==8.0 jsonlib-python3 scipy==1.7.0 opencv-python==4.4.0.44 torch==1.9.0 <br/>
 
 Method 2: 
 - download this [file](https://www.dropbox.com/s/s7tyx1t4xuh8p7k/packages.zip?dl=0)
